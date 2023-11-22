@@ -1,14 +1,10 @@
+@import "./variables.module.css";
+
 * {
     box-sizing: border-box;
     margin: 0;
 }
 
-:root {
-    --primary-color: #3498db;
-    --secondary-color: #6FCBC2;
-    --black-color: #141616;
-    --white-color: #ECFFFD;
-}
 
 body {
     background-color: var(--white-color);
